@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostIt", "PostIt\PostIt.csproj", "{DC7A79A0-6D3D-43BF-AE88-F5416380C39A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPostIt", "TestPostIt\TestPostIt.csproj", "{153CF0DE-386A-4385-A18B-B449257FA236}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC7A79A0-6D3D-43BF-AE88-F5416380C39A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC7A79A0-6D3D-43BF-AE88-F5416380C39A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC7A79A0-6D3D-43BF-AE88-F5416380C39A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC7A79A0-6D3D-43BF-AE88-F5416380C39A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{153CF0DE-386A-4385-A18B-B449257FA236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{153CF0DE-386A-4385-A18B-B449257FA236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{153CF0DE-386A-4385-A18B-B449257FA236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{153CF0DE-386A-4385-A18B-B449257FA236}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
