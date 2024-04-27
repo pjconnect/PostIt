@@ -12,7 +12,6 @@ export function handleApiErrors(ex) {
             message += data.errors[k] + "\n";
         }
     } else if (ex.message) {
-        debugger;
         message = ex.message;
     }
     toast(message, {icon: '⚠️'});

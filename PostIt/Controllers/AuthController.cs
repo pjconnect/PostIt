@@ -3,6 +3,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using PostIt.Controllers.utils;
@@ -45,6 +46,7 @@ public class AuthController : Controller
     }
 
     [HttpGet("my-info")]
+    [Authorize]
     public IActionResult GetMyInfo()
     {
         var result = authenticationService.GetMyInfo(User.GetUserId());

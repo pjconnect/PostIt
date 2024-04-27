@@ -1,6 +1,6 @@
 import React, {useContext, useEffect, useState} from 'react';
 import {Collapse, Navbar, NavbarBrand, NavbarToggler, NavItem, NavLink} from 'reactstrap';
-import {Link} from 'react-router-dom';
+import {Link, useLocation, useNavigate} from 'react-router-dom';
 import './NavMenu.css';
 import {UserContext} from '../Store';
 import ApiService from "../ApiService";
@@ -9,19 +9,24 @@ function NavMenu() {
     const [collapsed, setCollapsed] = useState(true);
     const [user, setUser] = useState(null as null | {username:string});
     const apiService = new ApiService();
+    const nav = useLocation();
 
     const toggleNavbar = () => {
         setCollapsed(!collapsed);
     };
 
     useEffect(() => {
-        console.log('navbar called');
-        getMyInfo();
-    }, [])
+        getMyInfo()
+    }, [nav.pathname]);
 
     async function getMyInfo() {
-        let res = await apiService.getMyInfo();
-        setUser(res.data)
+        try {
+            let res = await apiService.getMyInfo();
+            console.log('res' ,res);
+            setUser(res.data)
+        }catch (ex){
+            setUser(null)
+        }
     }
 
     return (

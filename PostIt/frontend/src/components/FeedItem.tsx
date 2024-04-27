@@ -51,7 +51,7 @@ export default function FeedItem({postId, imageUrl, createdDate, username, descr
                              alt="Post Image"/>
                     }
                     <div className="mb-2">
-                        <p className="text-gray-700 text-2xl">{description}</p>
+                        <p className={"text-gray-700 text-left" + (!imageUrl ? " text-2xl" : "")}>{description}</p>
                     </div>
                     <p className="text-gray-500 text-left text-sm">Posted
                         on {moment.utc(createdDate).format("MMMM DD, yyyy")}</p>
