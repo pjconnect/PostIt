@@ -58,6 +58,8 @@ jobs:
     env:
       Solution_Name: PostIt.sln                         # Replace with your solution name, i.e. MyWpfApp.sln.
       Test_Project_Path: /TestPostIt/TestPostIt.csproj                # Replace with the path to your test project, i.e. MyWpfApp.Tests\MyWpfApp.Tests.csproj.
+      Wap_Project_Directory: PostIt
+      Wap_Project_Path: /PostIt
     
     steps:
     - name: Checkout
