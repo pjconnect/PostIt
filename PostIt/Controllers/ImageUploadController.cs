@@ -31,7 +31,7 @@ public class ImageUploadController : Controller
             // Check if the request contains a file
             if (Request.Form.Files.Count == 0) return BadRequest("No file uploaded");
 
-            var file = Request.Form.Files[0]; // Assuming only one file is being uploaded
+            var file = Request.Form.Files[0];
 
             // Check file size (optional)
             if (file.Length <= 0) return BadRequest("File is empty");

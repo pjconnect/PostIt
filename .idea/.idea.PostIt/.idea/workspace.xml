@@ -13,10 +13,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0050d7b7-e5f7-4e1c-8ae4-43d592519f35" name="Changes" comment="">
+    <list default="true" id="0050d7b7-e5f7-4e1c-8ae4-43d592519f35" name="Changes" comment="Proj file changes">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PostIt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PostIt/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostIt/PostIt.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PostIt/PostIt.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostIt/frontend/src/ApiService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/PostIt/frontend/src/ApiService.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PostIt/Controllers/ImageUploadController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PostIt/Controllers/ImageUploadController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PostIt/Models/ErrorViewModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PostIt/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/PostIt/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PostIt/frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/PostIt/frontend/src/App.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -264,7 +266,7 @@
       <workItem from="1714229477100" duration="18000" />
       <workItem from="1714230193944" duration="1754000" />
       <workItem from="1714235851164" duration="6197000" />
-      <workItem from="1714269247686" duration="770000" />
+      <workItem from="1714269247686" duration="2798000" />
     </task>
     <task id="LOCAL-00001" summary="final project changes">
       <option name="closed" value="true" />
@@ -434,7 +436,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714241520637</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Remove unused directives">
+      <option name="closed" value="true" />
+      <created>1714271439003</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1714271439003</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Proj file changes">
+      <option name="closed" value="true" />
+      <created>1714271446223</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1714271446223</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,7 +483,9 @@
     <MESSAGE value="Update CI/CD" />
     <MESSAGE value="Action for publish" />
     <MESSAGE value="Fix command" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix command" />
+    <MESSAGE value="Remove unused directives" />
+    <MESSAGE value="Proj file changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Proj file changes" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

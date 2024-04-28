@@ -1,4 +1,4 @@
-import React, {Component, useState} from 'react';
+import React, {useState} from 'react';
 import {Route, Routes} from 'react-router-dom';
 import AppRoutes from './AppRoutes';
 import './custom.css';
@@ -21,6 +21,5 @@ export default function App() {
                 </Routes>
             </Layout>
         </UserContext.Provider>
-
     );
 }
