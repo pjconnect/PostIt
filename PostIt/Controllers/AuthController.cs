@@ -1,14 +1,6 @@
-using System.ComponentModel.DataAnnotations;
-using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
-using System.Security.Cryptography;
-using System.Text;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.IdentityModel.Tokens;
-using PostIt.Controllers.utils;
 using PostIt.Domain;
-using PostIt.Models;
 using PostIt.utils;
 
 namespace PostIt.Controllers.API;

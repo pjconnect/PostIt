@@ -1,4 +1,3 @@
-using Microsoft.AspNetCore.Mvc;
 using PostIt.Controllers.API;
 using PostIt.Controllers.utils;
 using PostIt.Models;

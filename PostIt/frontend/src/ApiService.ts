@@ -54,6 +54,7 @@ export default class ApiService {
 
     private createAxiosBase(contentType = 'application/json') {
         return axios.create({
+            // baseURL: "http://51.8.98.5/",
             baseURL: "https://localhost:34318",
             headers: {
                 'Content-Type': contentType,

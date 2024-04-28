@@ -1,8 +1,6 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using PostIt.Domain;
-using PostIt.Models;
 using PostIt.utils;
 
 namespace PostIt.Controllers.API;
