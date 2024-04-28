@@ -5,6 +5,8 @@
     <projectFile profileName="WebApp1">PostIt/PostIt.csproj</projectFile>
     <projectFile profileName="http">PostIt/PostIt.csproj</projectFile>
     <projectFile profileName="https">PostIt/PostIt.csproj</projectFile>
+    <projectFile pubXmlPath="PostIt/Properties/PublishProfiles/FolderProfile 1.pubxml">PostIt/PostIt.csproj</projectFile>
+    <projectFile pubXmlPath="PostIt/Properties/PublishProfiles/FolderProfile.pubxml">PostIt/PostIt.csproj</projectFile>
     <projectFile pubXmlPath="PostIt/Properties/PublishProfiles/PostItWeb23 - Zip Deploy.pubxml">PostIt/PostIt.csproj</projectFile>
   </component>
   <component name="AutoImportSettings">
@@ -13,11 +15,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0050d7b7-e5f7-4e1c-8ae4-43d592519f35" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PostIt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PostIt/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostIt/Controllers/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PostIt/Controllers/AuthController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostIt/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/PostIt/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostIt/frontend/src/HelperMethods.ts" beforeDir="false" afterPath="$PROJECT_DIR$/PostIt/frontend/src/HelperMethods.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostIt/frontend/src/components/FeedItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/PostIt/frontend/src/components/FeedItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PostIt/frontend/src/components/NavMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/PostIt/frontend/src/components/NavMenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PostIt/PostIt.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PostIt/PostIt.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PostIt/frontend/src/ApiService.ts" beforeDir="false" afterPath="$PROJECT_DIR$/PostIt/frontend/src/ApiService.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +34,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -43,12 +55,12 @@
     &quot;assignee&quot;: &quot;pjconnect&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/pjconnect/PostIt.git",
-    "accountId": "faa7aaff-969b-4509-826b-2969713d7d1b"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/pjconnect/PostIt.git&quot;,
+    &quot;accountId&quot;: &quot;faa7aaff-969b-4509-826b-2969713d7d1b&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/PostIt/frontend/package-lock.json" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PostIt/frontend/src/ApiService.ts" root0="FORCE_HIGHLIGHTING" />
@@ -65,6 +77,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f245cf881f97452cb8c1b0e94d54df4e32400/8a/661a63af/ServiceProvider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fc1d997c109b4d6babc688b903ac477fcdc00/23/577af660/ImmutableArray`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/fcbf4f8a5ab54375abcfa46e8f5896b536c00/33/a468183c/CallSiteValidator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="cidr-memory-view://1" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
@@ -81,35 +94,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.PostIt.executor": "Debug",
-    ".NET Launch Settings Profile.PostIt: WebApp1.executor": "Run",
-    ".NET Launch Settings Profile.PostIt: http.executor": "Run",
-    "140ae1f9-e1c4-4945-a445-704a58a0afa4.executor": "Debug",
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "ts.external.directory.path": "/Users/pasindujayawardana/Desktop/PostIt/PostIt/frontend/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.PostIt.executor&quot;: &quot;Debug&quot;,
+    &quot;.NET Launch Settings Profile.PostIt: WebApp1.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Launch Settings Profile.PostIt: http.executor&quot;: &quot;Run&quot;,
+    &quot;140ae1f9-e1c4-4945-a445-704a58a0afa4.executor&quot;: &quot;Debug&quot;,
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Native Core Dump Debug.dotnet-desktop.yml.executor&quot;: &quot;Debug&quot;,
+    &quot;Publish to IIS.PostIt: PostItWeb23 - Zip Deploy.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/pasindujayawardana/Desktop/PostIt/PostIt/frontend/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "/Users/pasindujayawardana/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache",
-      "/Users/pasindujayawardana/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache",
-      "/Users/pasindujayawardana/Library/Application Support/Symbols/src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/pasindujayawardana/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/pasindujayawardana/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache&quot;,
+      &quot;/Users/pasindujayawardana/Library/Application Support/Symbols/src&quot;
     ]
   }
-}]]></component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.PostIt">
+}</component>
+  <component name="RunManager" selected="Native Core Dump Debug.dotnet-desktop.yml">
+    <configuration name="PostIt: FolderProfile 1" type="DotNetMsBuildPublish" factoryName="Publish to IIS">
+      <riderPublish configuration="Release" platform="AnyCPU" publish_profile="FolderProfile 1.pubxml" pubxml_path="$PROJECT_DIR$/PostIt/Properties/PublishProfiles/FolderProfile 1.pubxml" uuid_high="-2559599708272245825" uuid_low="-5870172453086379110" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PostIt: FolderProfile" type="DotNetMsBuildPublish" factoryName="Publish to IIS">
+      <riderPublish configuration="Release" platform="AnyCPU" publish_profile="FolderProfile.pubxml" pubxml_path="$PROJECT_DIR$/PostIt/Properties/PublishProfiles/FolderProfile.pubxml" uuid_high="-2559599708272245825" uuid_low="-5870172453086379110" />
+      <method v="2" />
+    </configuration>
     <configuration name="PostIt: PostItWeb23 - Zip Deploy" type="DotNetMsBuildPublish" factoryName="Publish to IIS">
       <riderPublish configuration="Release" platform="Any CPU" publish_profile="PostItWeb23 - Zip Deploy.pubxml" pubxml_path="$PROJECT_DIR$/PostIt/Properties/PublishProfiles/PostItWeb23 - Zip Deploy.pubxml" user_name="$PostItWeb23" uuid_high="-2559599708272245825" uuid_low="-5870172453086379110" />
       <method v="2" />
@@ -174,6 +197,11 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="dotnet-desktop.yml" type="RiderCppCoreDump" factoryName="Native Core Dump Debug" temporary="true">
+      <option name="CORE_DUMP_PATH" value="$PROJECT_DIR$/.github/workflows/dotnet-desktop.yml" />
+      <option name="EXECUTABLE_PATH" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="PostIt/Dockerfile" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
@@ -202,6 +230,11 @@
       <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Native Core Dump Debug.dotnet-desktop.yml" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -227,7 +260,11 @@
       <workItem from="1714175661845" duration="12047000" />
       <workItem from="1714195453366" duration="9361000" />
       <workItem from="1714205355742" duration="1085000" />
-      <workItem from="1714223931550" duration="1940000" />
+      <workItem from="1714223931550" duration="2552000" />
+      <workItem from="1714229477100" duration="18000" />
+      <workItem from="1714230193944" duration="1754000" />
+      <workItem from="1714235851164" duration="6197000" />
+      <workItem from="1714269247686" duration="770000" />
     </task>
     <task id="LOCAL-00001" summary="final project changes">
       <option name="closed" value="true" />
@@ -357,7 +394,47 @@
       <option name="project" value="LOCAL" />
       <updated>1714206067424</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Minor changes">
+      <option name="closed" value="true" />
+      <created>1714227721281</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1714227721281</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Update Github Workflow">
+      <option name="closed" value="true" />
+      <created>1714239126529</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1714239126529</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Update CI/CD">
+      <option name="closed" value="true" />
+      <created>1714239666714</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1714239666714</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Action for publish">
+      <option name="closed" value="true" />
+      <created>1714240809236</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1714240809236</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Fix command">
+      <option name="closed" value="true" />
+      <created>1714241520637</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1714241520637</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,7 +460,12 @@
     <MESSAGE value="Domain" />
     <MESSAGE value="Testing" />
     <MESSAGE value="Web publish" />
-    <option name="LAST_COMMIT_MESSAGE" value="Web publish" />
+    <MESSAGE value="Minor changes" />
+    <MESSAGE value="Update Github Workflow" />
+    <MESSAGE value="Update CI/CD" />
+    <MESSAGE value="Action for publish" />
+    <MESSAGE value="Fix command" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix command" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
